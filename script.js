@@ -3,7 +3,6 @@ const paperDiv = document.getElementById("p");
 const scissorDiv = document.getElementById("s");
 const resultp = document.querySelector(".result > p");
 const computerChoiceP = document.querySelector(".computerChoice > p");
-const resetGame = document.getElementById("reset");
 
 //use math random to generate a computer choice
 function getComputerChoice() {
