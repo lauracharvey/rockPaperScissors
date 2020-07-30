@@ -32,6 +32,10 @@ h2 {
     text-align: center;
 }
 
+.userChoices img, .computerChoice img {
+    opacity: 70%;
+    margin-top: 10px;
+}
 .userChoices {
     width: 140px;
     height: 140px;
@@ -48,8 +52,6 @@ h2 {
 
 .userChoices img {
     width: 120px;
-    opacity: 70%;
-    margin-top: 10px;
 }
 
 .keys {
@@ -86,8 +88,6 @@ h2 {
 
 .computerChoice img {
     width: 100px;
-    opacity: 70%;
-    margin-top: 10px;
 }
 
 
