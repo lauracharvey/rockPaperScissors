@@ -62,17 +62,17 @@ function game (userChoice) {
 function main () {
 rockDiv.addEventListener('click', function() {
     game("r")
-    document.getElementById("r").style.borderColor="#eb4034";
+    document.getElementById("r").style.borderColor="#ff00bf";
 })
 
 paperDiv.addEventListener('click', function() {
     game("p")
-    document.getElementById("p").style.borderColor="#eb4034";
+    document.getElementById("p").style.borderColor="#ff00bf";
 })
 
 scissorDiv.addEventListener('click', function() {
     game("s")
-    document.getElementById("s").style.borderColor="#eb4034";
+    document.getElementById("s").style.borderColor="#ff00bf";
 })
 }
 
